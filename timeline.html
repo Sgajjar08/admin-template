@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Timeline</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans'>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script>
+        function openSlideMenu() {
+            document.getElementById('menu').style.width = '250px';
+            document.getElementById('content').style.marginLeft = '250px';
+        }
+
+        function closeSlideMenu() {
+            document.getElementById('menu').style.width = '0';
+            document.getElementById('content').style.marginLeft = '0';
+        }
+    </script>
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="#">SUEZ CONSULTING</a>
+        <ul>
+            <li>
+                <a href="#"><img src="images/saurabh.jpeg" style="width: 20px; height: 20px; margin-bottom: -5px;"> Saurabh
+                    <i class="fa fa-angle-down"></i></a>
+            </li>
+            <li>
+                <div class="num">2</div>
+                <a href=""><i class="fa fa-tasks"></i></a>
+            </li>
+            <li>
+                <div class="num">6</div>
+                <a href=""><i class="fa fa-envelope"></i></a>
+            </li>
+            <li>
+                <div class="num">5</div>
+                <a href=""><i class="fa fa-exclamation-triangle"></i></a>
+            </li>
+        </ul>
+    </div>
+
+
+    <div id="content">
+        <span class="slide">
+        <a href="#" onclick="openSlideMenu()">
+        <i class="fa fa-bars"></i></a>
+        </span>
+
+        <div id="menu" class="nav">
+            <a href="#" class="close" onclick="closeSlideMenu()">
+                <i class="fa fa-times"></i>
+            </a>
+            <div class="searchbar">
+                <input type="text" value="Search...">
+                <i class="fa fa-search"></i>
+            </div>
+
+            <a herf="#"><i class="fa fa-home"> </i> Dashboard</a>
+
+
+            <button class="dropdown-btn">
+                    <i class="fa fa-sitemap"></i>
+                Pages 
+                    <i class="fa fa-angle-left"></i>
+                  </button>
+            <div class="dropdown-container">
+                <a href="#"><i class="fa fa-suitcase"></i> Portfolio </a>
+                <a href="#"><i class="fa fa-clock-o"></i> Timeline <div class="timeline">4</div></a>
+                <a href="#"><i class="fa fa-cogs"></i> Coming Soon</a>
+                <a href="#"><i class="fa fa-comments"></i> Blog</a>
+                <a href="#"><i class="fa fa-font"></i> Blog Post</a>
+                <a href="#"><i class="fa fa-coffee"></i> News <div class="news">6</div></a>
+                <a href="#"><i class="fa fa-bell"></i> News View</a>
+                <a href="#"><i class="fa fa-ticket"></i> About Us</a>
+                <a href="#"><i class="fa fa-user"></i> Contact Us</a>
+                <a href="#"><i class="fa fa-calendar"></i> Calendar <div class="calendar">14</div></a>
+            </div>
+
+        </div>
+
+        <div class="container">
+            <h2>Timeline<span> coming soon page with date countdown</span></h2>
+        </div>
+
+        <div class="pathbar">
+            <i class="fa fa-home"></i> Home <i class="fa fa-angle-right"></i> Pages <i class="fa fa-angle-right"></i> Timeline
+            <a href=""> Action <i class="fa fa-angle-down"></i></a>
+        </div>
+
+        <div class="timeline1">
+            <div class="timeline-container1">
+                <div class="timeline-content1">
+                    <h6 style="float: right;">4/10/13</h6>
+                    <h1 style="color: #ffa000;">18:30</h1>
+                </div>
+            </div>
+            <div class="timeline-container4 right1">
+                <div class="timeline-content2" style="background-color: #ffa000;">
+                    <h2 class="title"> ICT 2013 20th International Conference </h2>
+                    <img class="timeline-image" src="images/1st.jpg">
+                    <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+                    <a style="color: white; font-size: 12px; padding-left: 6px;" href="#"> Read more <i class="fa fa-arrow-circle-right"></i></a>
+                </div>
+            </div>
+            <div class="timeline-container2">
+                <div class="timeline-content1">
+                    <h6 style="float: right;">4/10/13</h6>
+                    <h1 style="color: #4f30ca;">18:30</h1>
+                </div>
+            </div>
+            <div class="timeline-container4 right2">
+                <div class="timeline-content2" style="background-color: #4f30ca;">
+                    <h2 class="title"> Management Metting </h2>
+                    <img class="timeline-image" style="float: right; margin-right: 6px;" src="images/2nd.jpg">
+                    <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+                    <a style="color: white; font-size: 12px; padding-left: 6px;" href="#"> Read more <i class="fa fa-arrow-circle-right"></i></a>
+                </div>
+            </div>
+            <div class="timeline-container3">
+                <div class="timeline-content1">
+                    <h6 style="float: right;">4/10/13</h6>
+                    <h1 style="color: #31ba53;">18:30</h1>
+                </div>
+            </div>
+            <div class="timeline-container4 right3">
+                <div class="timeline-content2" style="background-color: #31ba53;">
+                    <h2 class="title"> New Project Launch </h2>
+                    <img class="timeline-image" src="images/1st.jpg">
+                    <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+                    <a style="color: white; font-size: 12px; padding-left: 6px;" href="#"> Read more <i class="fa fa-arrow-circle-right"></i></a>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <script>
+        var dropdown = document.getElementsByClassName("dropdown-btn");
+        var i;
+
+        for (i = 0; i < dropdown.length; i++) {
+            dropdown[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var dropdownContent = this.nextElementSibling;
+                if (dropdownContent.style.display === "block") {
+                    dropdownContent.style.display = "none";
+                } else {
+                    dropdownContent.style.display = "block";
+                }
+            });
+        }
+    </script>
+</body>
+
+</html>
